@@ -5,8 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+<<<<<<< HEAD
 public class Main {
 
+=======
+public class Main{
+>>>>>>> upstream/main
     @GetMapping("/fruits")
     public HashMap<String, Object> m() {
 
